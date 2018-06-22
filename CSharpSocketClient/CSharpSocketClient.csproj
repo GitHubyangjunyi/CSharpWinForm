@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DB5D34C-E294-4D9D-A1BB-CCC0E76F8906}</ProjectGuid>
+    <ProjectGuid>{5F846D62-79AD-456A-98DA-E0B6369F9C3C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CSharpWinForm</RootNamespace>
-    <AssemblyName>CSharpWinForm</AssemblyName>
+    <RootNamespace>CSharpSocketClient</RootNamespace>
+    <AssemblyName>CSharpSocketClient</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCSharpWinForm.cs">
+    <Compile Include="FormCSharpSocketClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCSharpWinForm.Designer.cs">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <Compile Include="FormCSharpSocketClient.Designer.cs">
+      <DependentUpon>FormCSharpSocketClient.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCSharpWinForm.resx">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormCSharpSocketClient.resx">
+      <DependentUpon>FormCSharpSocketClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

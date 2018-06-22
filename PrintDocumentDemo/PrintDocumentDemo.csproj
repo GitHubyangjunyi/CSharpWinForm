@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DB5D34C-E294-4D9D-A1BB-CCC0E76F8906}</ProjectGuid>
+    <ProjectGuid>{6B0F565C-8832-4035-82AE-C039BD15808B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CSharpWinForm</RootNamespace>
-    <AssemblyName>CSharpWinForm</AssemblyName>
+    <RootNamespace>PrintDocumentDemo</RootNamespace>
+    <AssemblyName>PrintDocumentDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCSharpWinForm.cs">
+    <Compile Include="FormPrintDocumentDemo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCSharpWinForm.Designer.cs">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <Compile Include="FormPrintDocumentDemo.Designer.cs">
+      <DependentUpon>FormPrintDocumentDemo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCSharpWinForm.resx">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormPrintDocumentDemo.resx">
+      <DependentUpon>FormPrintDocumentDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

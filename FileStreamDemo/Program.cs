@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSharpWinForm
+namespace FileStreamDemo
 {
     static class Program
     {
@@ -16,7 +16,8 @@ namespace CSharpWinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCSharpWinForm());
+            Application.Run(new FormFileStreamDemo());
+            //Application.Run(new FormCheckFileUsing());
         }
     }
 }

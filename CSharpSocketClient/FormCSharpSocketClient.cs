@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSharpWinForm
+namespace CSharpSocketClient
 {
-    public partial class Form1 : Form
+    public partial class FormCSharpSocketClient : Form
     {
-        public Form1()
+        public FormCSharpSocketClient()
         {
             InitializeComponent();
         }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DB5D34C-E294-4D9D-A1BB-CCC0E76F8906}</ProjectGuid>
+    <ProjectGuid>{ACCD7193-BB0C-4492-B156-368E54FFAB7C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CSharpWinForm</RootNamespace>
-    <AssemblyName>CSharpWinForm</AssemblyName>
+    <RootNamespace>LINQDemo</RootNamespace>
+    <AssemblyName>LINQDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCSharpWinForm.cs">
+    <Compile Include="FormLINQDemo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCSharpWinForm.Designer.cs">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <Compile Include="FormLINQDemo.Designer.cs">
+      <DependentUpon>FormLINQDemo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCSharpWinForm.resx">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormLINQDemo.resx">
+      <DependentUpon>FormLINQDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

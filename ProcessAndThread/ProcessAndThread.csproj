@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DB5D34C-E294-4D9D-A1BB-CCC0E76F8906}</ProjectGuid>
+    <ProjectGuid>{2A85384B-6F9E-4410-A10F-D9751F071110}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CSharpWinForm</RootNamespace>
-    <AssemblyName>CSharpWinForm</AssemblyName>
+    <RootNamespace>ProcessAndThread</RootNamespace>
+    <AssemblyName>ProcessAndThread</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCSharpWinForm.cs">
+    <Compile Include="FormProcessAndThread.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCSharpWinForm.Designer.cs">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <Compile Include="FormProcessAndThread.Designer.cs">
+      <DependentUpon>FormProcessAndThread.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCSharpWinForm.resx">
-      <DependentUpon>FormCSharpWinForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormProcessAndThread.resx">
+      <DependentUpon>FormProcessAndThread.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
