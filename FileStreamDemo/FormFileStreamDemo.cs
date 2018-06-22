@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,33 @@ namespace FileStreamDemo
         public FormFileStreamDemo()
         {
             InitializeComponent();
+        }
+
+        private void Btn_Write_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sf = new SaveFileDialog
+            {
+                Filter = "txt 文件|*.txt|所有文件|*.*",
+                AddExtension = true,
+                Title = "写文件"
+            };//文件保存对话框
+            if (Rbt_One.Checked)
+            {
+                if (sf.ShowDialog()==DialogResult.OK)
+                {
+                    //实例化文件流并与写入文件相关
+                    FileStream fileStream = new FileStream(sf.FileName, FileMode.Create);
+                    byte[] data = new UTF8Encoding().GetBytes(this.Tb_One.Text);
+                    fileStream.Write(data, 0, data.Length);
+                    fileStream.Flush();
+                    fileStream.Close();
+                }
+            }
+        }
+
+        private void Btn_Read_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
